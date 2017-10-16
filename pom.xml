@@ -10,14 +10,14 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>wangz-crawler</module>
-        <module>wangz-test</module>
-        <module>wangz-servlet-test</module>
-        <module>wangz-test-rocketmq</module>
-        <module>wangz-acm</module>
-        <module>wangz-test-zookeeper</module>
-        <module>wangz-test-comet</module>
-        <module>wangz-dubbo-test</module>
+        <module>crawler</module>
+        <module>test-jdk</module>
+        <module>test-servlet</module>
+        <module>test-rocketmq</module>
+        <module>acm</module>
+        <module>test-zookeeper</module>
+        <module>test-comet</module>
+        <module>test-dubbo</module>
     </modules>
 
     <properties>
