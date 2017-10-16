@@ -11,7 +11,7 @@
 
     <dubbo:protocol id="dubbo" name="dubbo" port="12722"/>
 
-    <dubbo:service interface="dubbo.dubbo.Serveice.Provider"
+    <dubbo:service interface="wz.test.dubbo.Serveice.Provider"
                    ref="providerImpl" protocol="dubbo"/>
 
 </beans>

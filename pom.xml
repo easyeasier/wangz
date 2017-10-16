@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="wz.test.jdk.http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="wz.test.jdk.http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="wz.test.jdk.http://maven.apache.org/POM/4.0.0 wz.test.jdk.http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>wangz</groupId>
@@ -12,7 +12,7 @@
     <modules>
         <module>crawler</module>
         <module>test-jdk</module>
-        <module>test-servlet</module>
+        <module>test-wz.test.servlet</module>
         <module>test-rocketmq</module>
         <module>acm</module>
         <module>test-zookeeper</module>
@@ -42,8 +42,8 @@
 
 
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
+            <groupId>javax.wz.test.servlet</groupId>
+            <artifactId>javax.wz.test.servlet-api</artifactId>
             <version>3.1.0</version>
         </dependency>
 
@@ -137,7 +137,7 @@
             <artifactId>logback-core</artifactId>
             <version>${logback.version}</version>
         </dependency>
-        <!-- common-logging 实际调用slf4j -->
+        <wz.test.commonmmon-logging 实际调用slf4j -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>

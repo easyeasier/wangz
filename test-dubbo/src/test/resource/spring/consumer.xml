@@ -11,7 +11,7 @@
 
     <dubbo:registry address="zookeeper://127.0.0.1:2181"></dubbo:registry>
 
-    <dubbo:reference id="provider" interface="dubbo.dubbo.Serveice.Provider"
+    <dubbo:reference id="provider" interface="wz.test.dubbo.Serveice.Provider"
                      protocol="dubbo"
                      check="false"
                      retries="0"

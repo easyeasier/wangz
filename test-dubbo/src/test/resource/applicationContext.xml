@@ -9,7 +9,7 @@
     <import resource="classpath:spring/provider.xml"></import>
 
 
-    <context:component-scan base-package="dubbo.dubbo.Serveice"/>
+    <context:component-scan base-package="wz.test.dubbo.Serveice"/>
 
 
 </beans>
