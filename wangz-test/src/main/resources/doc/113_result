@@ -1,0 +1,79 @@
+1    create_time                   system                        创建时间                          date_time                     1490673338567                 
+2    last_modified_time            system                        最后修改时间                        date_time                     1490689431093                 
+3    version                       system                        version                       number                        null                          
+4    record_type                   system                        record_type                   select_one                    null                          
+5    package                       system                        package                       text                          null                          
+6    created_by                    system                        创建人                           text                          1000                          
+7    object_describe_id            system                        object_describe_id            text                          58e4a39aeb8caa6ddbca769e      
+8    name                          system                        客户名称                          text                          BPM 测试 0328                   
+9    _id                           system                        _id                           text                          d2f154cc3b22441cb5610258bb84f564
+10   tenant_id                     system                        tenant_id                     text                          2                             
+11   object_describe_api_name      system                        object_describe_api_name      text                          AccountObj                    
+12   last_modified_by              system                        最后修改人                         text                          1000                          
+13   is_deleted                    system                        is_deleted                    true_or_false                 null                          
+14   last_deal_closed_amount       package                       最后一次成交金额                      currency                      0.0000                        
+15   total_refund_amount           package                       退款总额                          currency                      0.0000                        
+16   last_deal_closed_time         package                       最后一次成交时间                      date_time                     946656000000                  
+17   last_followed_time            package                       最后跟进时间                        date_time                     1490673338567                 
+18   email                         package                       邮件                            email                                                       
+19   location                      package                       定位                            location                                                    
+20   pin_yin                       package                       名称拼写1                         long_text                     BPMCESHI0328                  
+21   remark                        package                       备注                            long_text                                                   
+22   owner                         package                       负责人                           number                        1000                          
+23   transfer_count                package                       转手次数                          number                        1                             
+24   fax                           package                       传真                            phone_number                                                
+25   country                       package                       国家                            select_one                                                  
+26   account_type                  package                       客户类型                          select_one                                                  
+27   account_status                package                       客户状态                          select_one                    3                             
+28   province                      package                       省                             select_one                                                  
+29   district                      package                       区                             select_one                                                  
+30   industry_level2               package                       2级行业                          select_one                                                  
+31   industry_level1               package                       1级行业                          select_one                                                  
+32   city                          package                       市                             select_one                                                  
+33   account_level                 package                       客户级别                          select_one                    1                             
+34   deal_status                   package                       成交状态                          select_one                    1                             
+35   account_source                package                       来源                            select_one                                                  
+36   account_no                    package                       客户编号                          text                          775                           
+37   tel                           package                       电话                            text                                                        
+38   high_seas_id                  package                       公海                            text                                                        
+39   completion_rate               package                       客户资料完善度                       text                          0.27                          
+40   remaining_time                package                       剩余保有时间                        text                          --                            
+41   owner_dept_name               package                       负责人所在部门                       text                          北研                            
+42   recycled_reason               package                       退回/收回原因                       text                                                        
+43   address                       package                       详细地址                          text                                                        
+44   url                           package                       网址                            text                          222                           
+45   high_seas_name                package                       所属公海                          text                                                        
+46   UDMoney1__c                   custom                        金额测试                          currency                      0.00                          
+47   UDDate1__c                    custom                        日期测试                          date                          946656000000                  
+48   UDMail1__c                    custom                        邮件1                           email                                                       
+49   UDAttach1__c                  custom                        attach                        file_attachment               []                            
+50   UDAttach2__c                  custom                        附件001                         file_attachment               []                            
+51   UDAttach3__c                  custom                        Jackytest                     file_attachment               []                            
+52   UDAttach4__c                  custom                        附件                            file_attachment               []                            
+53   UDCal2__c                     custom                        计算                            formula                       1.00                          
+54   UDCal1__c                     custom                        计算字段测试一                       formula                       0.00                          
+55   UDImg1__c                     custom                        image                         image                         [""]                          
+56   UDImg2__c                     custom                        picture                       image                         [""]                          
+57   UDMText1__c                   custom                        多行文本测试                        long_text                                                   
+58   UDCSSel1__c                   custom                        111                           multi_level_select_one                                      
+59   UDCSSel2__c                   custom                        level2Options                 multi_level_select_one                                      
+60   UDInt2__c                     custom                        整数                            number                                                      
+61   UDInt3__c                     custom                        整数型字段                         number                                                      
+62   UDDec1__c                     custom                        小数测试                          number                        0                             
+63   UDInt1__c                     custom                        cal1                          number                                                      
+64   UDTel1__c                     custom                        电话号码测试                        phone_number                                                
+65   UDTel2__c                     custom                        电话11                          phone_number                                                
+66   UDMSel1__c                    custom                        多项选择测试字段                      select_many                   [""]                          
+67   UDSSel3__c                    custom                        父                             select_one                                                  
+68   UDSSel2__c                    custom                        子字段                           select_one                                                  
+69   UDSSel1__c                    custom                        单选字段                          select_one                                                  
+70   UDSText5__c                   custom                        C_03244444                    text                                                        
+71   UDSText9__c                   custom                        测试11212                       text                                                        
+72   UDSText2__c                   custom                        autonumber                    text                          135                           
+73   UDSText8__c                   custom                        测试不可见                         text                                                        
+74   UDSText1__c                   custom                        单行文本                          text                                                        
+75   UDSText7__c                   custom                        子行业1                          text                                                        
+76   UDSText10__c                  custom                        自增编号001                       text                                                        
+77   UDSText4__c                   custom                        QWE                           text                                                        
+78   UDSText6__c                   custom                        自增编号测试                        text                          43                            
+79   UDSText3__c                   custom                        C_0331                        text                                                        

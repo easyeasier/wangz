@@ -1,0 +1,7 @@
+1   owner                         package                       负责人                            number(ref)            4344
+2   account_no                    package                       客户编号                          text (auto_number)
+3   high_seas_id                  package                       公海                              text(ref)               f1c28bb5c74f4eeaa7b8385479c54de9
+4   completion_rate               package                       客户资料完善度                     text(percentile)        0.14
+5   remaining_time                package                       剩余保有时间                       text(number)            --
+6   owner_dept_name               package                       负责人所在部门                     text()                  01测试部1，A01，0909
+7   high_seas_name                package                       所属公海                          text(ref)               yangq的公海BPM测试用

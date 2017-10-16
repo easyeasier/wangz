@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <script type="text/javascript">
+
+        // 向HTML追加message，这个函数是给服务器向iframe中添加的javascript脚本调用
+        function addMsg(msg) {
+            var msgElement = document.getElementById("msg");
+            msgElement.innerHTML += msg;
+        }
+
+    </script>
+</head>
+<body>
+
+<!-- 隐藏的iframe，src设置成CometServlet地址，用于加载服务器推送的JS脚本 -->
+<iframe id="iframe" style="display: none;" src="/iframe"></iframe>
+<div id="msg"></div>
+
+</body>
+</html>
